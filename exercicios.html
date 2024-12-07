@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/be8886912b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Exercicios</h1>
+            </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="exercicios.html">Exercicios</a>
+                </li>
+
+                <li>
+                    <a href="bemestar.html">Bem-Estar</a>
+                </li>
+
+                <li>
+                    <a href="contato.html">Contate-nos</a>
+                </li>
+
+                <li>
+                    <a href="desenvolvedores.html">Desenvolvedores</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="ex">
+        <h2>
+            Exercicios fisicos 
+        </h2>
+        <div id="exer">
+
+            <div id="umum">
+               <p>              
+                    A prática regular de exercícios físicos traz inúmeros benefícios à saúde, como a melhora da função cardiovascular, fortalecimento muscular, redução do estresse e controle do peso. Além disso, é fundamental para prevenir doenças crônicas, como diabetes tipo 2 e hipertensão. A Organização Mundial da Saúde (OMS) recomenda ao menos 150 minutos semanais de atividade aeróbica moderada para adultos, combinados com exercícios de força duas vezes por semana. Incorporar exercícios na rotina promove bem-estar físico e mental, contribuindo para uma melhor qualidade de vida (OMS, 2020).
+               </p> 
+               <p>
+                    A calculadora de Índice de Massa Corporal (IMC) é uma ferramenta importante para avaliar o estado nutricional de um indivíduo de forma simples e prática. Ela ajuda a identificar se a pessoa está com peso adequado, abaixo do peso, em sobrepeso ou em obesidade, categorias que estão diretamente associadas a riscos à saúde. A obesidade, por exemplo, aumenta o risco de desenvolver doenças crônicas, como diabetes tipo 2, hipertensão e doenças cardiovasculares. Apesar de suas limitações, como não diferenciar entre massa magra e gordura corporal, o IMC é amplamente utilizado em estudos populacionais e no monitoramento de políticas públicas de saúde, por ser um indicador rápido e acessível (WHO, 2004).
+               </p>
+            </div>
+
+            <div id="doisdois">
+                <div class="container">
+                    <h1>Calculadora de IMC</h1>
+                    <form id="imcForm">
+                      <label for="altura">Altura (em metros):</label>
+                      <input type="number" id="altura" step="0.01" placeholder="Ex: 1.75" required>
+                      
+                      <label for="peso">Peso (em kg):</label>
+                      <input type="number" id="peso" step="0.1" placeholder="Ex: 70.5" required>
+                      
+                      <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+                    </form>
+                    <div id="resultado"></div>
+                  </div>
+            </div>
+
+        </div>
+       
+        
+    </main>
+
+
+    <footer>
+
+        <h1>
+            Copyright &copy; 2024   
+        </h1>
+        
+            <ul>
+                <li>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+            
+            <p><a href="referencia.html">Referencias</a> | <a href="desenvolvedores.html">Desenvolvedores</a></p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

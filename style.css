@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+  padding: 3vw 0;
+  background-color: #32CD3280 ;
+  margin-bottom: 5vw;
+}
+
+header h1{
+  text-align: center;
+  font-size: 4vw;
+  
+  margin-bottom: 2vw;
+  font-family: "comfortaa";
+}
+header ul{
+  display: flex;
+  justify-content: center;
+}
+header ul li{
+  margin: 0 2vw;
+}
+
+header ul li a{
+  font-size: 1.5vw;
+  font-family: "parkinsans";
+}
+
+header ul li:first-child{
+  margin-left: 0;
+}
+header ul li:last-child{
+  margin-right: 0;
+}
+
+footer{
+  padding: 3vw 0;
+  background-color: #32CD3280 ;
+  margin-top: 5vw;
+  align-items: center;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 1.2vw;
+  font-family: "comfortaa";
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+
+}
+footer ul li i{
+  font-size: 2vw;
+  margin: 1vw 1vw;
+}
+footer p{
+  text-align: center;
+  font-size: 1vw;
+  font-family: "parkinsans";
+}
+
+
+/*FINAL DOS FIXO=============================================================================*/
+main{
+  margin: 0 5vw;
+}
+main h2{
+  text-align: center;
+  font-size: 4vw;
+  font-family: "comfortaa";
+  margin-bottom: 2vw;
+}
+
+/*Carrosel*/
+.carrossel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.imagens {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.imagens img {
+  max-width: 100%;
+  display: block;
+  height: 27vw;
+  width: 47vw;
+  border-radius: 10vw;
+  
+}
+
+button.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+/*Fim carrosel*/
+/*Sumario*/
+
+.container{
+  margin: 5vw 10vw 0 10vw;
+}
+
+.container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+
+.sumario {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaçamento entre os itens */
+}
+
+.sumario li {
+  background-color: #32CD3275; /* Cor de fundo para cada item */
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  font-size: 2vw;
+  text-align: center;
+}
+
+.um{
+  margin-left: 55%;
+}
+.tres{
+  margin-left: 55%;
+}
+.dois{
+  margin-right: 55%;
+}
+.quatro{
+  margin-right: 55%;
+}
+
+.sumario li:hover {
+  background-color: #32CD32; /* Cor de fundo ao passar o mouse */
+}
+
+.sumario a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block; /* Faz o link ocupar todo o espaço do li */
+}
+
+.sumario a:hover {
+  text-decoration: underline;
+}
+
+
+/*EXERCICIOS===================================================================================*/
+
+#ex #exer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#doisdois .container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+#doisdois h1 {
+  font-size: 2.5vw;
+  color: black;
+  margin-bottom: 2vw;
+  font-family: "comfortaa";
+}
+
+#doisdois label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.5vw;
+  color: black;
+  font-family: "parkinsans";
+}
+
+#doisdois input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#doisdois button {
+  background-color: #32CD3275;
+  
+  border: none;
+  padding: 1vw 1.5vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  font-size: 1.7vw;
+}
+
+#doisdois button:hover {
+  background-color: #32CD32;
+  transition: 0.3s;
+}
+
+#doisdois #resultado {
+  margin-top: 2vw;
+  font-size: 1.6vw;
+  color: #333;
+}
+
+#umum{
+  background-color: #32CD3275;
+  padding: 2vw;
+  line-height: 1.3vw;
+  border-radius: 2vw;
+
+  box-shadow: 0.5vw 0.4vw 0.6vw rgba(50, 205, 50, 1);
+}
+
+#umum p{
+  font-family: "parkinsans";
+  font-size: 1.2vw;
+}
+#umum p:first-child{
+  margin-bottom: 1vw;
+  border-bottom: #32CD32 solid 2px;
+  padding-bottom: 0.5vw;
+}
+/*BEM ESTAR==================================================================*/
+
+#doisdoisdois .container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+#doisdoisdois h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#doisdoisdois p {
+  font-size: 18px;
+  color: #555;
+}
+
+#doisdoisdois button {
+  background-color: #32CD3275;
+  
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+#doisdoisdois button:hover {
+  background-color: #32CD32;
+}
+
+#doisdoisdois #temporizador {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #32CD32;
+}
+
+#bem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+
+}
+#bem p{
+  font-family: "parkinsans";
+  font-size: 1.2vw;
+}
+#umumum p:first-child{
+  margin-bottom: 1vw;
+  border-bottom: #32CD32 solid 2px;
+  padding-bottom: 0.5vw;
+}
+#umumum{
+  background-color: #32CD3275;
+  padding: 2vw;
+  line-height: 1.3vw;
+  border-radius: 2vw;
+
+  box-shadow: 0.5vw 0.4vw 0.6vw rgba(50, 205, 50, 1);
+}
+
+/*Formulario==========================================================================*/
+
+main#form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(50, 205, 50, 1);
+}
+
+#form h1 {
+  text-align: center;
+  color: #000;
+  font-size: 3vw;
+  font-family: "comfortaa";
+}
+
+#form .form-group {
+  margin-bottom: 15px;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 0.5vw;
+  font-size: 1.5vw;
+  font-family: "parkinsans";
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #32CD3275;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form button:hover {
+  background-color: #32CD32;
+}
+
+#form #responseMessage {
+  margin-top: 20px;
+  text-align: center;
+  color: #32CD32;
+}
+
+/*DEV=================================*/
+
+#dese{
+  padding: 0 10vw;
+  align-items: center;
+  display: block;
+}
+
+#dese li{
+  display: flex;
+  align-items: center;
+  
+  margin-top: 5vw;
+}
+#dese li img{
+  border-radius: 10vw;
+  height: 15vw;
+  width: 15vw;
+}
+#dese li h3{
+  font-size: 2.5vw;
+  font-family: "comfortaa";
+  margin-bottom: 3vw;
+}
